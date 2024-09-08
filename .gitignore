@@ -1,0 +1,18 @@
+# Ignore environment variables
+.env
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+venv/
+
+# Ignore Docker artifacts
+*.log
+*.tmp
+.dockerignore
+
+# Ignore Airflow logs
+airflow/logs/
+
